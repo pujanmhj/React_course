@@ -1,0 +1,18 @@
+
+
+.card{
+   display: flex;
+   
+   height: 50px;
+   
+}
+
+.cardHeader{
+  flex: 1;
+  flex-direction: row;
+}
+
+.cardBody{
+  flex: 1;
+  flex-direction: row;
+}

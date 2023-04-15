@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+}
+.right{
+    flex: 1;
+    border: 2px solid red;
+    height: 500px;
+    width: 1500px;
+   
+}
+.left{
+    flex: 1;
+    border: 3px solid black;
+    height: 500px;
+    width: 100px;
+
+}
+table, td {
+    border: 1px solid;
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    height: 60px;
+    text-align: center;
+  }

@@ -1,0 +1,36 @@
+
+.main{
+    display: flex;
+}
+.card{
+    flex: 1;
+    flex-direction: column;
+    height: 300px;
+	width: 250px;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.cardHeader{
+    display: flex;
+    flex:6;
+    
+    flex-direction: row;
+    height: 100;
+    border-radius: 5;
+    /* background-color: aliceblue; */
+    padding: 10;
+}
+
+.cardBody{
+    display: flex;
+    flex:4 ;
+    flex-direction: column;
+    /* height: 50; */
+    border-radius: 5;
+    /* background-color: aliceblue; */
+    padding: 10;
+}
